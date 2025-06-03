@@ -1,6 +1,6 @@
 # Python Frogger 🐸
 
-A classic Frogger-style game implemented in Python, played in the terminal. Navigate your frog (`0`) across multiple lanes of moving obstacles (`X`) to reach the safety of the other side!
+A Frogger-style game implemented in Python, played in the terminal. Navigate your frog (`0`) across multiple lanes of moving obstacles (`X`) to reach the other side!
 
 ## 🌟 Features
 
@@ -49,7 +49,7 @@ A classic Frogger-style game implemented in Python, played in the terminal. Navi
 
 ## 📄 Level File Format (`.frog` files)
 
-The game levels are defined in `.frog` text files. Here's the structure:
+The game levels are defined in `.frog` text files, structured as:
 
 * **Line 1: Board Configuration**
     * Format: `BOARD <width> <max_jumps>`
@@ -65,21 +65,6 @@ The game levels are defined in `.frog` text files. Here's the structure:
     * ` ` (space) represents an empty path.
     * The length of these lines should match the `<width>` defined in Line 1.
     * The number of these lines will determine the height of the playable area (excluding the top and bottom safe rows).
-
-**Example `.frog` file:**
-
-BOARD 10 3
-1 -1 2
-X  X  X
-XX XX
-X X X X
-
-This defines:
-* A board 10 columns wide with 3 max jumps.
-* Row 1 speed: 1 (shifts left by 1)
-* Row 2 speed: -1 (shifts right by 1)
-* Row 3 speed: 2 (shifts left by 2)
-* The visual layout for the 3 moving rows.
 
 ## Code Overview
 

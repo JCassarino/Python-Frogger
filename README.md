@@ -1,8 +1,8 @@
-# Python Frogger 🐸
+# Python Frogger
 
 A Frogger-style game implemented in Python, played in the terminal. Navigate your frog (`0`) across multiple lanes of moving obstacles (`X`) to reach the other side!
 
-## 🌟 Features
+## Features
 
 * Terminal-based gameplay.
 * Loads game levels from custom `.frog` files.
@@ -10,7 +10,7 @@ A Frogger-style game implemented in Python, played in the terminal. Navigate you
 * Moving rows of obstacles with varying speeds.
 * Win/loss conditions.
 
-## ⚙️ How to Play
+## How to Play
 
 ### Prerequisites
 
@@ -47,7 +47,7 @@ A Frogger-style game implemented in Python, played in the terminal. Navigate you
 * **Win:** Reach the bottom-most safe row.
 * **Lose:** Land on a space occupied by an obstacle (`X`).
 
-## 📄 Level File Format (`.frog` files)
+## Level File Format (`.frog` files)
 
 The game levels are defined in `.frog` text files, structured as:
 
@@ -82,6 +82,6 @@ The game logic is structured into several functions:
 * `win_loss_check()`: Determines if the player has won or lost.
 * `play_frogger()`: Main game loop that orchestrates the game flow.
 
-## 📝 Project Status
+## Project Status
 
 This is a completed project. No further updates are planned at this time.

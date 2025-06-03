@@ -20,8 +20,8 @@ A Frogger-style game implemented in Python, played in the terminal. Navigate you
 
 1.  **Clone or Download:** Get the project files onto your local machine.
     ```bash
-    git clone <your_repository_url>
-    cd <your_repository_name>
+    git clone <https://github.com/JCassarino/Python-Frogger>
+    cd <Python-Frogger>
     ```
     (Or download the ZIP and extract it).
 2.  **Ensure Level Files (`.frog`) are Present:** The game requires at least one `.frog` file in the same directory as the `frogger.py` file to define the game board and parameters. See the "Level File Format" section below for details on how to create these.
